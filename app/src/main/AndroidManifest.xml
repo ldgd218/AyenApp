@@ -2,6 +2,7 @@
 
     package="com.ayen.ayenapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/SplashScreenTheme">
 
-        <activity android:name=".MainActivity"
+        <activity android:name=".Views.SplashScreenActivity"
             android:theme="@style/SplashScreenTheme">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER"/>

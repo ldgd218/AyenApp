@@ -6,8 +6,13 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/comapny_logo"
+        android:transitionName="logoTransition"
         android:layout_width="wrap_content"
+        android:scaleType="fitCenter"
         android:layout_height="wrap_content"
-        android:src="@drawable/app_logo"/>
+        android:src="@drawable/app_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
 
 </RelativeLayout>
