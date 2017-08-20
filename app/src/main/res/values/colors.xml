@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="summerSky">#30aadf</color>
-    <color name="lightSeaGreen">#37b9b0</color>
-    <color name="navyPurple">#0870bc</color>
-    <color name="jacksonPurple">#2d3392</color>
-    <color name="charolette">#9ededb</color>
-    <color name="bostonBlue">#458fb1</color>
-    <color name="governorBay">#58599a</color>
+    <color name="indigo">#2e3192</color>
+    <color name="blue">#0071bc</color>
+    <color name="light_blue">#29abe2</color>
+    <color name="green_blue">#00a99d</color>
     <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#828282</color>
 </resources>

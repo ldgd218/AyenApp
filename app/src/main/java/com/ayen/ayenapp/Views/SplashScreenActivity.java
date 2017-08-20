@@ -1,7 +1,5 @@
 package com.ayen.ayenapp.Views;
-
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -37,6 +35,7 @@ public class SplashScreenActivity extends AppCompatActivity
     protected void preCheckAppState(){
         //TODO here goes the code to check if the app starts for the first time and hence SplashScreen needs to be displayed or else
         //not required and we directly go to the
-
+        Intent intent=new Intent(SplashScreenActivity.this,LoginActivity.class);
+        startActivity(intent);
     }
 }
