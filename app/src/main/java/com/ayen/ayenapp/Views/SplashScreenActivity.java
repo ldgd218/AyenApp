@@ -38,4 +38,15 @@ public class SplashScreenActivity extends AppCompatActivity
         Intent intent=new Intent(SplashScreenActivity.this,LoginActivity.class);
         startActivity(intent);
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                preCheckAppState();
+            }
+        },2000);
+    }
 }
